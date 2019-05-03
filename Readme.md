@@ -8,7 +8,7 @@ the porpuse of this project is make a neural network model to buy and sell in st
 
 Reinforcement learning ==> its a technique to make a model ( a neural network ) witch act with enviroment and try to find out and maximise reward can get from enviroment 
 
-![](images/ReinforcementLearning.jpg)
+![](images/ReinforcementLearning.png)
 
 for more information : 
 https://www.youtube.com/watch?v=e3Jy2vShroE&t=125s
