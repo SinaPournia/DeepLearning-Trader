@@ -1,7 +1,12 @@
 
 
+test
+<img src='images/ReinforcementLearning.png'>
 
-<img src="images/ACtorCritic.jpg">
+
+
+![](images/ReinforcementLearning.png)
+
 
 
 
