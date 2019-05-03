@@ -1,11 +1,11 @@
 
 
 test
-<img src='images/ReinforcementLearning.png'>
+<img src="https://raw.githubusercontent.com/SinaPournia/DeepLearning-Trader/master/images/ReinforcementLearning.png">
 
 
 
-![](images/ReinforcementLearning.png)
+![alt text](https://raw.githubusercontent.com/SinaPournia/DeepLearning-Trader/master/images/ReinforcementLearning.png)
 
 
 
