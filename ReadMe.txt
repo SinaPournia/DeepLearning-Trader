@@ -1,7 +1,7 @@
 
 
 
-![](images/Reinforcement Learning.jpg)
+<img src="images/ACtorCritic.jpg">
 
 
 
