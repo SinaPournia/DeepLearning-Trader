@@ -61,7 +61,7 @@ fix problem of normalization data
 add More indicators 
 visualize Data and Backtrader buy sell history 
 
-![](images/Screen Shot 2019-05-08 at 12.59.45.png)
+![](images/trade.png)
 
 
 # next Goals 
