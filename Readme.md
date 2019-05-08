@@ -19,8 +19,11 @@ for example single row of data frame included :
 [Open,High,Low,Close,Volume]
 
 
-then action given by model in that state to decide buy or sell and get reward
+then action given by model in that state to decide buy or sell 
+backtrader calculate and return reward for that action
+
 if we buy that means price will increase and if we sell that means price will be decrease 
+
 
 
 
@@ -29,25 +32,37 @@ there is two different model whitch feedbacks each other to achive better result
 
 ![](images/ACtorCritic.jpg)
 
-for train model better and maximize performance inside agent two model acts together and feedback each other to how to acts
+for train model better and maximize performance inside agent two model acts together and feedback each other.
 
 its like two people in one team,
 
 Critic => predict the maximum reward can get from this situation base on latest experince 
-Actor  => predict the best action in that situation whitch leads to maximum reward 
+Actor  => predict the best action in that situation which leads to maximum reward 
 
 this two works parallel and feedback each other to have a better sight for present state 
-
-
 
 
 
 for more information : 
 https://www.youtube.com/watch?v=e3Jy2vShroE&t=125s
 
-
 for more information : 
-
 https://www.youtube.com/watch?v=5P7I-xPq8u8&t=7s
+
+
+# this version acvhivment :
+this version is not last version im working on it and this model cant achive human level performance
+
+because model is LSTM based and havent capable to achive more 
+
+# last version achivement :
+change the model from LSTM to attention base
+fix problem of normalization data
+add More indicators 
+visualize Data and Backtrader buy sell history 
+
+
+
+
 
 
