@@ -56,10 +56,10 @@ this version is not last version im working on it and this model cant achive hum
 because model is LSTM based and havent capable to achive more 
 
 # last version achivement :
-change the model from LSTM to attention base
-fix problem of normalization data
-add More indicators 
-visualize Data and Backtrader buy sell history 
+change the model from LSTM to attention base,
+fix problem of normalization data,
+add More indicators,
+visualize Data and Backtrader buy sell history .
 
 ![](images/trade.png)
 
