@@ -74,9 +74,9 @@ make different models train parallel all together for make all progress faster (
 
 its about one year im working on this project but after all I find out it should be a fulltime job with some other people in other fields to make project sucsesful 
 
-for example at least should work with someone who works in algotrading field will be so helpfull to find out witch indicator usefull and how 
+for example at least should work with someone who experienced in algotrading field will be so helpfull to find out witch indicator usefull and how 
 
-in this porpuse im looking for some investors to hire people and make situation for working together on this porject
+for this porpuse im looking for some investors to hire people and make situation for working together on this porject
 
 
 
