@@ -61,6 +61,33 @@ fix problem of normalization data
 add More indicators 
 visualize Data and Backtrader buy sell history 
 
+![](images/Screen Shot 2019-05-08 at 12.59.45.png)
+
+
+# next Goals 
+
+still have LSTM inside the model trying to eliminate it
+
+make different models train parallel all together for make all progress faster (instead of training one model in one itteration)
+
+# Motivation for sharing this project 
+
+its about one year im working on this project but after all I find out it should be a fulltime job with some other people in other fields to make project sucsesful 
+
+for example at least should work with someone who works in algotrading field will be so helpfull to find out witch indicator usefull and how 
+
+in this porpuse im looking for some investors to hire people and make situation for working together on this porject
+
+
+
+
+contact 
+linkedIn:
+
+
+
+
+
 
 
 
