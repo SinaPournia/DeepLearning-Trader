@@ -1,91 +1,76 @@
 
 # DeepLearning Trader
 
-the porpuse of this project is make a neural network model to buy and sell in stock or forex market 
+The purpose of this project is to make a neural network model which buys and sells in the stock or a similar system like forex market.
 
 # how it works :
 
 
-Reinforcement learning ==> its a technique to make a model ( a neural network ) witch act with enviroment and try to find out how treat with enviroment to get maximum reward  
+“Reinforcement learning” is a technique to make a model (a neural network) which acts in an environment and tries to find how to “deal” with that environment to get the maximum “reward”.
 
-agent produce action and get reward for given action from enviroment and updated it self with that reward for produce better action
+“Agent” produces action and earn reward for that action from the environment and updates itself with that reward to produce better actions in the future.
+
 
 ![](images/ReinforcementLearning.png)
 
-So in our situation backtrader is enviorment, witch simulates stock or forex market with real data history 
+In this situation back trader is the environment, which simulates stock or forex market with real data history.
 
-for example single row of data frame included :
+For example, single row of data frame includes:
+[Open, High, Low, Close, Volume]
 
-[Open,High,Low,Close,Volume]
+Action produced by our model in a specific state is a decision to buy or sell. Back trader calculates and returns a reward for every action made by the model.
 
-
-then action given by model in that state to decide buy or sell 
-backtrader calculate and return reward for that action
-
-if we buy that means price will increase and if we sell that means price will be decrease 
+If we buy, that means price will increase and if we sell that means price will be decrease.
 
 
+PPO is a technique in reinforcement learning. In this technique two different models feeds back to one another to achieve a better result.
 
-
-PPO ==> its technique inside reinforcement learning field 
-there is two different model whitch feedbacks each other to achive better result 
 
 ![](images/ACtorCritic.jpg)
 
-for train model better and maximize performance inside agent two model acts together and feedback each other.
+To improve the model training and maximizing performance in an agent, two different models act together and feedback each other.
 
-its like two people in one team,
+It’s like different people working in a single team.
 
-Critic => predict the maximum reward can get from this situation base on latest experince 
-Actor  => predict the best action in that situation which leads to maximum reward 
+“Critic” predicts the maximum reward that can be earned from this situation base on the latest experience.
+“Actor” predicts the best action in that situation which led to maximum reward.
 
-this two works parallel and feedback each other to have a better sight for present state 
+These two work in parallel and feedback each other to have a better grasp of the present state.
 
-
-
-for more information : 
+Please refer to these links for more information on this subject:
 https://www.youtube.com/watch?v=e3Jy2vShroE&t=125s
-
-for more information : 
 https://www.youtube.com/watch?v=5P7I-xPq8u8&t=7s
 
 
-# this version acvhivment :
-this version is not last version im working on it and this model cant achive human level performance
+
+
+
+# Achievements on This Version:
+This is not the last version we’re working on it and also this model cannot achieve human level performance. Since this model is based on LSTM, it is not capable to achieve a better performance.
 
 because model is LSTM based and havent capable to achive more 
 
-# last version achivement :
-change the model from LSTM to attention base,
-fix problem of normalization data,
-add More indicators,
-visualize Data and Backtrader buy sell history .
+Latest Achievements
+Changing the model from LSTM to attention base, fixes the problem of data normalization. Also we’ve added more indicators, introduced data visualization and a back trader buy-sell history.
 
 ![](images/trade.png)
 
 
-# next Goals 
+# Future Goals:
 
-still have LSTM inside the model trying to eliminate it
+We are going to eliminate all the LSTM from the model.
 
-make different models train parallel all together for make all progress faster (instead of training one model in one itteration)
+Also, having multiple models at once and train them in parallel (instead of training one model at once) will make the overall progress much faster.
 
-# Motivation for sharing this project 
 
-its about one year im working on this project but after all I find out it should be a fulltime job with some other people in other fields to make project sucsesful 
-
-for example at least should work with someone who experienced in algotrading field will be so helpfull to find out witch indicator usefull and how 
-
-for this porpuse im looking for some investors to hire people and make situation for working together on this porject
+# Motivation for sharing this project:
+It’s about a year that we’re working on this project. We’ve found that it’s like a full time job and we need more expertise in other fields to make this project really successful.
+For instance, an experienced scientist in Algotrading (Algorithmic Trading) would be very helpful for us to determine which indicators are useful and how to use them.
+For this reason, we are looking for investors so we could hire more people to fuel the project.
 
 
 
-
-contact 
-linkedIn:
-
-
-
+Contact me at LinkedIn: https://www.linkedin.com/in/sina-pournia-74246a185/
 
 
 
