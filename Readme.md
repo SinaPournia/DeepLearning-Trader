@@ -55,8 +55,9 @@ This is not the latest version that we've worked on, and also this model cannot 
 # Latest Achievements
 Changing the model from LSTM to attention base, fixes the problem of data normalization. Also we’ve added more indicators, introduced data visualization and a backtrader buy-sell history.
 
-![](images/trade.png)
-
+![](images/4_5803365664395625916.png)
+![](images/4_5798873888813221320.png)
+![](images/4_5981060603303692130.png)
 
 # Future Goals:
 
